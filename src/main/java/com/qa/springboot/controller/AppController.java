@@ -13,7 +13,6 @@ public class AppController {
 	public Object test1(){
 		return "success";
 	}
-	
 	@RequestMapping("/test2")
 	public Object test2(){
 		Map<String, Object> map = new HashMap<String, Object>();
@@ -24,4 +23,5 @@ public class AppController {
 		map.put("arr", arr);
 		return map;
 	}
+	
 }
